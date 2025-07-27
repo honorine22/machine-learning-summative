@@ -51,7 +51,7 @@ venv.bak/
 # =====================
 # Data Files (use Git LFS or Releases)
 # =====================
-*.csv
+# *.csv
 *.json
 *.parquet
 *.xlsx
