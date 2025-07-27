@@ -77,7 +77,7 @@ This project addresses African economic development by predicting employment rat
 
 ## 🎬 Video Demo
 
-**YouTube Video Demo**: [Link to your 5-minute video demo]
+**YouTube Video Demo**: https://youtu.be/VRkPaGIHqjs
 
 *Note: Replace with actual YouTube link once video is uploaded*
 
