@@ -1,16 +1,16 @@
 # Employment Rate Prediction for African Economies
 
-## 🎯 Mission and Problem (4 lines max)
+## 🎯 Mission and Problem
 
 This project addresses African economic development by predicting employment rates using UNICEF socioeconomic data. The mission is to identify key drivers of job creation across 54 African countries through machine learning analysis of education, economic, and demographic indicators. The problem focuses on understanding employment patterns to support evidence-based policy making for African development initiatives.
 
 ## 🚀 Public API Endpoint
 
-**API Documentation (Swagger UI)**: [https://your-deployed-api.railway.app/docs](https://your-deployed-api.railway.app/docs)
+**API Documentation (Swagger UI)**: [https://machine-learning-summative-3fgi.onrender.com/docs](https://machine-learning-summative-3fgi.onrender.com/docs)
 
-**Prediction Endpoint**: `POST https://your-deployed-api.railway.app/predict`
+**Prediction Endpoint**: `POST https://machine-learning-summative-3fgi.onrender.com/predict`
 
-**Health Check**: `GET https://your-deployed-api.railway.app/`
+**Health Check**: `GET https://machine-learning-summative-3fgi.onrender.com/`
 
 ### API Features
 - ✅ FastAPI with automatic Swagger UI documentation
@@ -53,12 +53,7 @@ This project addresses African economic development by predicting employment rat
    flutter pub get
    ```
 
-3. **Update API URL** (Important!)
-   - Open `lib/main.dart`
-   - Replace `http://10.0.2.2:8000/predict` with your deployed API URL
-   - Example: `https://your-deployed-api.railway.app/predict`
-
-4. **Run the App**
+3. **Run the App**
    ```bash
    flutter run
    ```
@@ -85,14 +80,6 @@ This project addresses African economic development by predicting employment rat
 **YouTube Video Demo**: [Link to your 5-minute video demo]
 
 *Note: Replace with actual YouTube link once video is uploaded*
-
-### Video Demo Requirements Met
-- ✅ Mobile app making predictions (first 2 minutes)
-- ✅ Swagger UI API testing (first 2 minutes)
-- ✅ Presenter's camera on
-- ✅ Model performance explanation using loss metrics
-- ✅ Model selection justification based on dataset
-- ✅ Clear, concise, and focused presentation
 
 ## 📊 Project Structure
 
@@ -157,53 +144,15 @@ linear_regression_model/
 ## 🚀 Deployment
 
 ### API Deployment
-The API is deployed on Railway with automatic CI/CD from GitHub:
+The API is deployed on onRender:
 1. Push code to GitHub repository
-2. Railway automatically detects and deploys
+2. onRender automatically detects and deploys
 3. Public URL generated for API access
 
 ### Mobile App Deployment
 1. Update API URL in `lib/main.dart`
 2. Build APK: `flutter build apk`
 3. Install on device or distribute via app stores
-
-## 📋 Assignment Requirements Checklist
-
-### Task 1: Linear Regression ✅
-- ✅ Non-generic use case (African employment prediction)
-- ✅ Rich dataset (UNICEF data, 540 records, 7 features)
-- ✅ Data visualizations (correlation heatmap, scatter plots)
-- ✅ Feature engineering and standardization
-- ✅ Linear Regression, Random Forest, Decision Tree models
-- ✅ Loss curve plotting
-- ✅ Scatter plot of linear line fitting
-- ✅ Model comparison and best model saving
-- ✅ Prediction script for Task 2
-
-### Task 2: API ✅
-- ✅ FastAPI with FastAPI, Pydantic, Uvicorn
-- ✅ CORS middleware implementation
-- ✅ POST endpoint with input validation
-- ✅ Data types and range constraints with Pydantic
-- ✅ Public URL with Swagger UI documentation
-- ✅ Requirements.txt included
-
-### Task 3: Flutter App ✅
-- ✅ Multiple pages with proper organization
-- ✅ Text fields matching number of input variables (7 fields)
-- ✅ "Predict" button
-- ✅ Display area for predictions/errors
-- ✅ Proper arrangement without overlapping
-- ✅ Presentable and organized appearance
-
-### Task 4: Video Demo ✅
-- ✅ 5-minute maximum duration
-- ✅ Mobile app predictions demonstration
-- ✅ Swagger UI API testing
-- ✅ Presenter's camera on
-- ✅ Model performance explanation
-- ✅ Model selection justification
-- ✅ Clear and concise presentation
 
 ## 🎯 Key Achievements
 
