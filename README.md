@@ -3,8 +3,8 @@
 ## 📊 Machine Learning Project for Employment Rate Prediction Across African Countries
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Project Demo" width="600" height="400">
+  <a href="https://www.youtube.com/watch?v=VRkPaGIHqjs">
+    <img src="https://img.youtube.com/vi/VRkPaGIHqjs/maxresdefault.jpg" alt="Project Demo" width="600" height="400">
   </a>
   <br>
   <em>🎥 Click to watch the full project demonstration</em>
